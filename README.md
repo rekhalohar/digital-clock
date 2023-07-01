@@ -1,2 +1,2 @@
 # digital-clock
-i am crate this clock using html csss and javascript.
+i am create this clock using html csss and javascript.
