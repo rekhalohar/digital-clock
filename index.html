@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="clock">
+        <div id="time"></div>
+    </div>
+  </div>  
+  <!-- <script src="index.js"></script> -->
+  <script>
+    setInterval(myFun, 1000);
+
+    function myFun() {
+      let date = new Date();
+      let time = date.toLocaleTimeString();
+      document.getElementById("time").innerHTML = time; 
+    }
+  </script>
+</body>
+</html>

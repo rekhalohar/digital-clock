@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html , body{
+    background-color: rgb(1,43,67);
+    place-items: center;
+    display: grid;
+}
+.wrapper{
+    width: 420px;
+    height: 110px;
+    background:linear-gradient(135deg , red, blue, green);
+   margin-top: 50%;
+   border-radius: 4px;
+}
+.wrapper .clock{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    width: 405px;
+    height: 95px;
+    background:rgb(1,43,67); ;
+
+
+}
+.clock #time{
+    font-size: 65px;
+    color: white;
+    padding: 12px;
+}
